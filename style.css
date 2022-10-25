@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body{
+    overflow: hidden;
+    background: #d5e1ef;
+    font-family: "Red Hat Display", sans-serif;
+
+    
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+div.main-card-container {
+    width: 320px;
+    height: 500px;
+    background: white;
+    border-radius: 12px;
+    position: relative;
+    
+}
+div.image-container {
+    position: relative;
+    height: 20em;
+}
+
+div.image-container img{
+    position:absolute; 
+    top: 19px;
+    left: 15px;
+
+}
+div.main-card-container .image-container img {
+    width: 290px;
+    height: 290px;
+    border-radius: 12px;
+  
+}
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #21314a;
+
+}
+p{
+    color: #b5b8bf;
+    font-size: 16px;
+    text-align: center;
+    width: 274px;
+    margin: auto;
+}
+footer{
+    position: fixed;
+    top: 95vh;
+    text-align: center;
+    width: 100vw;
+}
